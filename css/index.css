@@ -41,9 +41,11 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     font-size: 20px ;
     height: 20%;
     width: 100%;
-    
-    
 }
+nav a:hover {
+    color: rgb(138, 133, 133);
+}
+
 .emblema {
     position: absolute;
     left: 30px;
@@ -61,8 +63,8 @@ nav a img {
     width: 150px;
 }
 header {
-    height: 100%;
-    background: url("//res2.weblium.site/res/60115ce126eea30022ce1a18/6021f6bb4647900021482634_optimized_2560.webp") 62.05% 55.18% / cover no-repeat fixed;")
+    height: 130%;
+    background: url("//res2.weblium.site/res/60115ce126eea30022ce1a18/6021f6bb4647900021482634_optimized_2560.webp") 62.05% 55.18% / cover no-repeat fixed;
 }
 .baner {
     width: 900px;
@@ -86,6 +88,7 @@ h1 {
 }
 .button-h1 button {
 font-size: 20px;
+
 }
 .button-h1 :first-child {
     background-color: rgb(155, 91, 67);
@@ -95,9 +98,33 @@ font-size: 20px;
 .button-h1 :last-child {
     border: 1px solid white;
     background-color: rgb(61, 60, 60, 0);
-    
     color: white;
     margin: 30px;
-    padding: 15px;
+    padding: 15px; 
+}
+.buttonHederBue:hover{
+    background-color: tomato;
+    color: white;
+}
+.buttonHederMore:hover {
+background-color: white;
+color: black;
+}
+.product {
     
+    display: flex;
+    justify-content:space-around;
+    display: block;
+    width: 100%;
+    height: 1500px;
+    background-color: rgb(26, 15, 3);
+    color: white;
+}
+.blok-product {
+    float: left;
+    display: block;
+    height: 550px;
+    width: 300px;
+    border: 2px solid white;
+ margin: 55px;
 }
