@@ -1,59 +1,29 @@
 
-*{
-	padding: 0;
-	margin: 0;
-	border: 0;
+body{
+    width: 100%; 
 }
-*,*:before,*:after{
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
+@media (max-width: 560px){
+     
 }
-:focus,:active{outline: none;}
-a:focus,a:active{outline: none;}
-nav,footer,header,aside{display: block;}
-html,body{
-	height: 100%;
-	width: 100%;
-	font-size: 100%;
-	line-height: 1;
-	font-size: 14px;
-	-ms-text-size-adjust: 100%;
-	-moz-text-size-adjust: 100%;
-	-webkit-text-size-adjust: 100%;
-}
-input,button,textarea{font-family:inherit;}
-input::-ms-clear{display: none;}
-button{cursor: pointer;}
-button::-moz-focus-inner {padding:0;border:0;}
-a, a:visited{text-decoration: none;}
-a:hover{text-decoration: none;}
-ul li{list-style: none;}
-img{vertical-align: top;}
-h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
-
-
 .navigator {
     display: flex;
     justify-content: flex-end;
-    padding: 15px;
+    flex-wrap: wrap;
     background: rgb(12, 12, 12,0.7);
     font-size: 20px ;
-    height: 20%;
-    width: 100%;
+    
 }
 nav a:hover {
     color: rgb(138, 133, 133);
 }
 
 .emblema {
-    position: absolute;
-    left: 30px;
+    flex: 1 1 auto;
 }
 nav a {
     margin: 10px;
     color: white;
-    font-weight: 300;
+    
 }
 nav a img {
     width: 25px;
@@ -62,27 +32,24 @@ nav a img {
     width: 150px;
 }
 header {
-    height: 130%;
+    width: 100%;
     background: url("//res2.weblium.site/res/60115ce126eea30022ce1a18/6021f6bb4647900021482634_optimized_2560.webp") 62.05% 55.18% / cover no-repeat fixed;
 }
 .baner {
-    width: 600px;
-    height: 400px;
-   position: relative;
-   left: 50%;
-    top: 25%;
+    padding-right: 10%;
+    margin-top: 25%;
+    text-align:end;
+    
 }
 h1 {
-    font-size: 120px;
+    font-size: 50px;
     color: white;  
 }
 .text-h1 {
     font-size: 20px;
     color: white;
 }
-.symbol-h1 {
-    margin: 20px ;
-}
+
 .button-h1 button {
 font-size: 20px;
 
@@ -108,54 +75,45 @@ background-color: white;
 color: black;
 }
 .product {
-    display: block;
-    width: 100%;
-    height: 1500px;
     background-color: rgb(26, 15, 3);
+}
+.boxproduct div div{
+    margin: 10px;
     color: white;
+}
+.boxproduct div div h3 {
+    padding-top: 400px
+}
+.boxproduct div div a {
+    display: block;
+padding: 20px;
+text-align: center;
+color: white;
+}
+.boxproduct div div span {
+    color: gainsboro;
 }
 .boxproduct{
     display: flex;
-    justify-content: space-around;
-    width: 1200px;
-    height: 500px;
+    justify-content: space-between;
 }
-.product div div {
-    float: left;
-    display: block;
-    height: 480px;
-    width: 370px;
-   
+@media (max-width: 560px){
+    .boxproduct{
+        display: flex;
+        flex-direction: column;
+    }   
 }
 
+
 .blok-productFirst {
+    
     background: url("//res2.weblium.site/res/60115ce126eea30022ce1a18/6021fb0c8cf5a00021114094_optimized.webp") 51.81% 95.23% / cover no-repeat;   
 }
 .blok-productCenter {
+   
     background: url("//res2.weblium.site/res/60115ce126eea30022ce1a18/6021f9aee3861800222375e2_optimized.webp") 94.43% 26.26% / cover no-repeat;
 }
 .blok-productLast {
+   
     background: url("//res2.weblium.site/res/60115ce126eea30022ce1a18/6021f8b338b30b0021c4c638_optimized.webp") 0% 89.38% / cover no-repeat;
 }
-div h3 {
-    font-size: 30px;
-    padding-top: 80%;
-    padding-left: 10px;
-    padding-bottom: 10px;
-}
-.boxproduct div span {
-    font-size: 15px;
-    color: gainsboro;
-}
-.simbolLine_ {
-    width: 1px;
-    height: 1px;
-    background-color:#c8693a
-}
-.boxproduct div div div {  
-    height:2px;
-    width:15%;
-    background-color:#c8693a
-}
-
-    
