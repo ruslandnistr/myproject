@@ -103,14 +103,10 @@ color: white;
         flex-direction: column;
     }   
 }
-
-
-.blok-productFirst {
-    
+.blok-productFirst {   
     background: url("//res2.weblium.site/res/60115ce126eea30022ce1a18/6021fb0c8cf5a00021114094_optimized.webp") 51.81% 95.23% / cover no-repeat;   
 }
 .blok-productCenter {
-   
     background: url("//res2.weblium.site/res/60115ce126eea30022ce1a18/6021f9aee3861800222375e2_optimized.webp") 94.43% 26.26% / cover no-repeat;
 }
 .blok-productLast {
