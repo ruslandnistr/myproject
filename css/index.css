@@ -75,7 +75,13 @@
     nav {
       position: relative;
     }
-    
+    .clock{
+      color: white;
+      font-size: 15px;
+      position: absolute;
+      right: 120px;
+      text-decoration: none !important;
+    }
   
     .hamburger {
       position: absolute;
