@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Prata&display=swap');
 /* Modal Window Start========================================================= */
 body {font-family: Arial, Helvetica, sans-serif;}
+body{
+  background-color: rgb(26, 15, 3);
+}
 .self-destruct{
   color: white;
   text-align: center;
@@ -128,7 +131,7 @@ text-align: center;
       padding: 0;
       border: 5px solid #261e1c;
       width: 70%;
-      height: 60%;
+      height: 100%;
       box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
       -webkit-animation-name: animatetop;
       -webkit-animation-duration: 0.4s;
@@ -197,9 +200,10 @@ text-align: center;
     margin-left: 15px;
     margin-top: 10px;
 }
+
   .clock{
-    margin-top: 35px;
-    margin-right: 40px;
+    margin-top: 20px;
+    margin-right: 20%;
     color: white;
     font-size: 25px;
     text-align: right;
@@ -207,7 +211,7 @@ text-align: center;
   }
   nav {
     
-    height: 15vh;
+    height: 90px;
     background: rgb(12, 12, 12,0.7); 
     display: flex;
     justify-content: flex-end;
@@ -220,7 +224,7 @@ text-align: center;
   .nav-links {
     display: flex;
     list-style: none;
-    width: 50%;
+   margin-right: 30px;
     height: 100%;
     align-items: center;
   }
@@ -278,7 +282,7 @@ text-align: center;
   
     .nav-links {
       position: fixed;
-      background: rgb(12, 12, 12,0.7);
+      background: rgb(12, 12, 12,0.8);
       height: 100vh;
       width: 100%;
       flex-direction:column;
@@ -302,6 +306,7 @@ text-align: center;
       font-size: 25px;
     }
     .nav-links li:nth-child(1) {
+      padding-top: 30%;
       transition: all 0.5s ease 0.2s;
     }
     .nav-links li:nth-child(2) {
@@ -418,13 +423,14 @@ color: white;
     background: url("//res2.weblium.site/res/60115ce126eea30022ce1a18/6021f8b338b30b0021c4c638_optimized.webp") 0% 89.38% / cover no-repeat;
 }
 .natural-wine{
-    
+    margin-top: 100px;
     color: #c8693a;
     text-align: center;
     font-size: 30px;
     font-family: 'Great Vibes', cursive;
 }
 .about_us{
+   margin-top: 100px;
     text-align: center;
     font-size: 50px;
     color: white;
@@ -443,3 +449,138 @@ color: white;
     font-family: 'Prata', serif;
     margin-top: 20px;
 }
+#myBtn{
+  display: none;
+}
+.self-destruct{
+position: sticky;
+top: 40%;
+left: 35%; 
+width: 30%;
+}
+.history_main_blok{
+ height: 100%;
+color: white;
+width: 100%;
+}
+.img-history-wine{
+  display: block;
+  width: 100%;
+}
+.history_image{
+  width: 25%;
+ 
+}
+.history-blok{
+  display: flex;
+  justify-content:space-around;
+}
+
+.histori_content{
+
+  display: flex;
+  justify-content: space-evenly;
+}
+.histori_content div{
+  margin-right: 70px;
+}
+@media (max-width: 560px){
+  .histori_content{
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+  
+  }
+}
+ .histori_title{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 30px;
+  margin-bottom: 10px;
+  margin-top: 50px;
+ }
+ .histori_content div div{
+   width: 300px;
+ }
+ .align_component{
+   width: 50px !important;
+   height: 2px;
+   background-color: #c8693a;
+   margin-top: 15px;
+   margin-bottom: 15px;
+ }
+ .text_history_title{
+   color: rgb(137,128,130);
+   font-family:Verdana, Geneva, Tahoma, sans-serif
+ }
+
+/* .carusel================================= */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+
+
+
+.carousel {
+  position: relative;
+  width: 80%;
+  height: 480px; 
+  margin: 0 auto;
+}
+
+.carousel-content {
+  position: relative;
+  overflow: hidden;
+  transition: width .4s;
+  height: 480px;
+  margin: 0 auto;
+}
+
+.slide {
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  transition: left .4s cubic-bezier(.47,.13,.15,.89);
+}
+
+.nav-carousel {
+  position: absolute;
+  top: 50%;
+  margin-top: -10px;
+  background-color: rgba(150,150,150,.3);
+  width: 20px;
+  height: 20px;
+  z-index: 2;
+  cursor: pointer;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  color: white;
+}
+
+.nav-left {
+  left: -25px;
+}
+
+.nav-right {
+  right: -25px;
+}
+
+.carousel-arrow-icon-left {
+  margin-left: 5px;
+  margin-top: 2px;
+}
+
+.carousel-arrow-icon-right {
+  margin-left: 7px;
+  margin-top: 2px;
+}
+.img_slide{
+  width: 100%;
+  padding-left: 30px;
+}
+
+
+
