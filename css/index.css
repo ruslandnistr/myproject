@@ -353,13 +353,16 @@ font-size: 20px;
     background-color: rgb(155, 91, 67);
     margin: 30px;
     padding: 15px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 .button-h1 :last-child {
-    border: 1px solid white;
+text-decoration: none;
     background-color: rgb(61, 60, 60, 0);
     color: white;
-    margin: 30px;
+    margin: 30px ;
     padding: 15px; 
+  
 }
 .buttonHederBue:hover{
     background-color: tomato;
