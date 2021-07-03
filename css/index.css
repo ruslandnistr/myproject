@@ -542,6 +542,7 @@ width: 100%;
 }
 
 .slide {
+  padding: 20px;
   height: 100%;
   position: absolute;
   z-index: 1;
@@ -563,23 +564,23 @@ width: 100%;
 }
 
 .nav-left {
-  left: -70px;
+  left: -40px;
   width: 0; 
   height: 0; 
   border-top: 60px solid transparent;
   border-bottom: 60px solid transparent; 
   
-  border-right:60px solid rgb(77, 74, 74); 
+  border-right:30px solid rgb(77, 74, 74); 
 }
 
 .nav-right {
-  right: -70px;
+  right: -40px;
   width: 0; 
   height: 0; 
   border-top: 60px solid transparent;
   border-bottom: 60px solid transparent;
   
-  border-left: 60px solid rgb(77, 74, 74);
+  border-left: 30px solid rgb(77, 74, 74);
 }
 
 .carousel-arrow-icon-left {
