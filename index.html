@@ -147,29 +147,54 @@
               </div>
                 <div class="carousel-content">  
                     <div class="slide slide-1">
-                        <div><img class="img_slide" src="img/whiteWine.jpg" alt=""></div>
-                        <p>Cabarnet</p>
-                        <p>17.00 USD</p>
+                        <div><img class="img_slide" src="img/whiteWine.jpg" alt="">
+                        <div class="product_buy">
+                            <h3 class="productname">Product 1</h3>
+                            <p>Product description excerpt...</p>
+                            <p class="price">$5.05</p>
+                            <button class="addtocart">Add To Cart</button>
+                        </div>
+                    </div>
                     </div>
                     <div class="slide slide-2">
-                        <div><img class="img_slide" src="img/blackWine.jpg" alt=""></div>
-                        <p>Surah</p>
-                        <p>19.00 USD</p>
+                        <div><img class="img_slide" src="img/blackWine.jpg" alt="">
+                        <div class="product_buy">
+                            <h3 class="productname">Product 2</h3>
+                            <p>Product description excerpt...</p>
+                            <p class="price">$8.50</p>
+                            <button class="addtocart">Add To Cart</button>
+                        </div>
+                    </div>
                     </div>
                     <div class="slide slide-3">
-                        <div><img class="img_slide" src="img/whiteWine.jpg" alt=""></div>
-                        <p>Willa Crim</p>
-                        <p>11.00 USD</p>
+                        <div><img class="img_slide" src="img/whiteWine.jpg" alt="">
+                        <div class="product_buy">
+                            <h3 class="productname">Product 3</h3>
+                            <p>Product description excerpt...</p>
+                            <p class="price">$10.50</p>
+                            <button class="addtocart">Add To Cart</button>
+                        </div>
+                    </div>
                     </div>
                     <div class="slide slide-4">
-                        <div><img class="img_slide" src="img/blackWine.jpg" alt=""></div>
-                        <p>Cabarnet White</p>
-                        <p>14.00 USD</p>
+                        <div><img class="img_slide" src="img/blackWine.jpg" alt="">
+                         <div class="product_buy">
+                     <h3 class="productname">Product 1</h3>
+                     <p>Product description excerpt...</p>
+                     <p class="price">$5.05</p>
+                     <button class="addtocart">Add To Cart</button>
+                     </div>
+                    </div>
                     </div>
                     <div class="slide slide-5">
-                        <div><img class="img_slide" src="img/whiteWine.jpg" alt=""> </div>
-                        <p>Cabarnet Black</p>
-                        <p>21.00 USD</p>
+                        <div><img class="img_slide" src="img/whiteWine.jpg" alt=""> 
+                        <div class="product_buy">
+                            <h3 class="productname">Product 3</h3>
+                            <p>Product description excerpt...</p>
+                            <p class="price">$10.50</p>
+                            <button class="addtocart">Add To Cart</button>
+                        </div>
+                    </div>
                     </div>
                 </div>
               <div class="nav-carousel nav-right">
@@ -177,6 +202,41 @@
               </div>
             </div>  
         </div>
+        <!--------------------------------------- Корзина ------------------------------------------------------>
+        <div class="container"> 
+            <div id="alerts"></div>
+        
+                 <div class="cart-container">
+                   <h2>Cart</h2>
+                   <table>
+                     <thead>
+                       <tr>
+                       <th><strong>Product</strong></th>
+                       <th><strong>Price</strong></th>
+                     </tr>
+                     </thead>
+                     <tbody id="carttable">
+                     </tbody>
+                   </table>
+                   <hr>
+                   <table id="carttotals">
+                     <tr>
+                       <td><strong>Items</strong></td>
+                       <td><strong>Total</strong></td>
+                     </tr>
+                     <tr>
+                       <td>x <span id="itemsquantity">0</span></td>
+                      
+                       <td>$<span id="total">0</span></td>
+                     </tr></table>
+         
+                     
+                   <div class="cart-buttons">  
+                     <button id="emptycart">Empty Cart</button>
+                     <button id="checkout">Checkout</button>
+                   </div>
+             </div>
+         </div>
      <!----------------------------------------  FOTER=======================================================-->
     <footer class="foter">
         <div>
@@ -209,6 +269,7 @@
     <script src="js/modal.js"></script>
     <script src="js/script.js"></script>
     <script src="js/carousel.js"></script>
+    <script src="js/item.js"></script>
 </body>
 
 </html>
