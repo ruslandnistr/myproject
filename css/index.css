@@ -268,7 +268,7 @@ text-align: center;
       color: white;
       font-size: 15px;
       position: absolute;
-      right: 60px;
+      right: 0px;
       text-decoration: none !important;
     }
   
@@ -441,7 +441,8 @@ color: white;
     font-family: 'Prata', serif;
 }
 @media (max-width: 560px){
-  font-size: 30px;
+  .about_us{
+    font-size: 30px;}
   }   
 .simbolh2{
     display: block;
