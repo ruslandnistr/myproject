@@ -268,7 +268,7 @@ text-align: center;
       color: white;
       font-size: 15px;
       position: absolute;
-      right: 120px;
+      right: 60px;
       text-decoration: none !important;
     }
   
@@ -440,6 +440,9 @@ color: white;
     color: white;
     font-family: 'Prata', serif;
 }
+@media (max-width: 560px){
+  font-size: 30px;
+  }   
 .simbolh2{
     display: block;
     margin-left: auto;
